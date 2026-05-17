@@ -39,13 +39,16 @@ FROM `casestudy-490307.Ecommerce.customer_info`
 GROUP BY Gender
 ORDER BY customer_count DESC;
 
+Example SQL query used to analyze gender distribution:
 <img width="1920" height="1080" alt="22" src="https://github.com/user-attachments/assets/1cf108ca-39b7-4d19-9f39-06265052d772" />
 
-Example SQL query used to analyze average income by age group:
+
 SELECT `Age Group`, AVG(`Annual Income`) AS avg_income
 FROM `casestudy-490307.Ecommerce.customer_info`
 GROUP BY `Age Group`
-ORDER BY avg_income DESC
+ORDER BY avg_income DESC;
+
+Example SQL query used to analyze average income by age group:
 <img width="1920" height="1080" alt="33" src="https://github.com/user-attachments/assets/7d4e4ca0-0788-4599-bde9-3ef860774cd9" />
 
 SELECT `Customer ID`, `Time on Site`
