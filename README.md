@@ -20,7 +20,7 @@ This project analyzes customer demographic and behavioral data from an e-commerc
 - High-income users spend more time on site
 
 ## Dashboard
-[Tableau Dashboard Link](YOUR_TABLEAU_LINK)
+https://public.tableau.com/app/profile/rohit.chamlegi/viz/E-commerceCustomerBehaviorAnalysisDashboard_17735893092870/Dashboard1
 
 ## Dataset
-Kaggle Dataset Link
+https://www.kaggle.com/datasets/paulsamuelwe/e-commerce-customer-behaviour-dataset
