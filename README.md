@@ -31,15 +31,20 @@ https://www.kaggle.com/datasets/paulsamuelwe/e-commerce-customer-behaviour-datas
 <img width="1699" height="799" alt="Dashboard 1" src="https://github.com/user-attachments/assets/b7ccb212-1ca1-4907-949f-11f8e2fd76f9" />
 
 SQL_Queries.sqL
-<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/783973ed-79fa-4223-ad5e-6cb2770d7b99" />
 
 Example SQL query used to analyze gender distribution:
+
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/783973ed-79fa-4223-ad5e-6cb2770d7b99" />
+
+
 SELECT Gender, COUNT(*) AS customer_count
 FROM `casestudy-490307.Ecommerce.customer_info`
 GROUP BY Gender
 ORDER BY customer_count DESC;
 
+
 Example SQL query used to analyze gender distribution:
+
 <img width="1920" height="1080" alt="22" src="https://github.com/user-attachments/assets/1cf108ca-39b7-4d19-9f39-06265052d772" />
 
 
@@ -49,7 +54,9 @@ GROUP BY `Age Group`
 ORDER BY avg_income DESC;
 
 Example SQL query used to analyze average income by age group:
+
 <img width="1920" height="1080" alt="33" src="https://github.com/user-attachments/assets/7d4e4ca0-0788-4599-bde9-3ef860774cd9" />
+
 
 SELECT `Customer ID`, `Time on Site`
 FROM `casestudy-490307.Ecommerce.customer_info`
